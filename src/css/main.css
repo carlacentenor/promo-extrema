@@ -12,7 +12,7 @@ html {
 body {
   margin: 0;
   margin-bottom: 40px;
-  
+
 }
 
 footer {
@@ -61,6 +61,7 @@ footer {
   font-size: 29px;
   font-family: papafont;
   text-transform: uppercase;
+  line-height: 32px;
 }
 
 @media (max-width: 340px) {
@@ -309,7 +310,7 @@ input[type=radio]:checked+label::before {
   color: #BB141A;
 }
 
-.only-pizza{
+.only-pizza {
   display: grid;
   grid-template-columns: 180px;
   grid-template-rows: 1fr;
@@ -317,9 +318,27 @@ input[type=radio]:checked+label::before {
 }
 
 
-.flex-center{
+.flex-center {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
+
+.pizza-item-new {
+  color: #898988;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 55px auto 1fr;
+  align-items: center;
+}
+
+.btn-absolute {
+  position: absolute;
+}
+
+.icon-pizza {
+  padding-right: 0;
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -22,25 +22,25 @@
     <div class="container">
       <div class="promo-principal-section__title p-2">
         <div class="row">
-          <div class="col-2">
+          <div class="col-2 flex-center icon-pizza">
             <img class="promo-principal-section__image" src="assets/images/pizza.svg" alt="pizza-icon">
           </div>
-          <div class="col-10">Nueva Extrema 6 quesos</div>
+          <div class="col-10">Nueva Extrema 6 quesos + gaseosa de 1,5L</div>
         </div>
       </div>
-      <div class="text-center p-3 promo-principal-section__detail">
+      <div class="text-center p-2 promo-principal-section__detail">
         <p class="mb-0">
-          Nueva pizza grande Extrema 6 quesos a  <span class="promo-principal-section__detail--bold">S/ 34.90</span>  y  familiar a <span class="promo-principal-section__detail--bold">S/ 44.90</span>  .
+          Nueva pizza grande Extrema 6 quesos + gaseosa de 1,5L a  <span class="promo-principal-section__detail--bold">S/ 39.90</span>  y en tamaño familiar a <span class="promo-principal-section__detail--bold">S/ 49.90</span>.
          
           </p>
 
-        <p class="mb-0">*Precios no válidos en aeropuerto. Sujeto a disponibilidad de tienda</p>
+        <p class="mb-0">*Precios no válidos en aeropuerto. <br>*Sujeto a disponibilidad de tienda</p>
       </div>
 
     </div>
     <div class="box-size container mb-2">
       <div class="box-size__border">
-        <p class="box-size__border__name pl-3 pt-2 mb-0">Elige Tamaño</p>
+        <p class="box-size__border__name pl-3 pt-2 mb-0">1. Elige Tamaño</p>
         <div>
           <form id=radiotipo class="text-center">
             <div class="row">
@@ -65,19 +65,18 @@
 
 
       <!-- Pizzas Grandes -->
-      <div class="container flex-center  pb-3 ">
+      <div class="container flex-center  ">
 
         <div class="row container-pizza only-pizza">
 
 
-          <div class="pizza-item">
+          <div class="pizza-item-new">
             <div>
               <div class="title">
                 <p class="mb-0 pizza__name text-center">Extrema 6 quesos</p>
               </div>
             </div>
             <div><img class="img-fluid" src="assets/images/pizzas/all-the-meats.jpg"></div>
-            <div><p class="text-center mb-0 pizza__name">S/ 34.90</p></div>
             <div>
               <p class="pizza--font text-center mb-2 mt-2">Pepperoni, salchicha de cerdo, jamón, tocino, carne de res y
                 queso mozzarella</p>
@@ -91,10 +90,75 @@
 
     </div>
 
+    <div class="container">
+      <p class="pizza__name pl-3 pt-2 mb-2">2. Elige la gaseosa</p>
+      <div class="">
+          <div class="container pb-3">
 
+              <form id=radiotipo4 class=" text-center">
+                <input type="radio" name="tipo" value="Americana" id="rbamericana" class="text-right" />
+                <label class="pizza-box-radio" for="rbamericana">
+                  <div class="row pizza__border--desactive border-preview p-1" id="border-1-americana">
+                    <div class="col-6 m-auto pl-2 pt-2 pb-2 pr-0">
+                      <img class="img-fluid" src="assets/images/bebidas/Logo-IK-original.png">
+                    </div>
+                    <div class="col-6 m-auto">
+                      <p class="mb-0 pizza__name text-center">Inca Kola Original </p>
+                      <p class="pizza__name--font text-center mb-0">Inca Kola Original de 1,5L</p>
+      
+                    </div>
+      
+                  </div>
+                </label>
+                <input type="radio" name="tipo" value="Pepperoni" id="rbpepperoni" class="text-right" />
+                <label class="pizza-box-radio" for="rbpepperoni">
+                  <div class="row pizza__border--desactive border-preview p-1 " id="border-1-pepperoni">
+                    <div class="col-6 m-auto pl-2 pt-2 pb-2 pr-0">
+                      <img class="img-fluid" src="assets/images/bebidas/Logo-IK-sin-azucar.png">
+                    </div>
+                    <div class="col-6 m-auto">
+                      <p class="mb-0 pizza__name text-center">Inca Kola Sin azúcar</p>
+                      <p class="pizza__name--font text-center mb-0">Inca Kola sin azúcar de 1,5L</p>
+      
+      
+                    </div>
+      
+                  </div>
+                </label>
+      
+                <input type="radio" name="tipo" value="Vegetariana" id="rbvegetariana" class="text-right" />
+                <label class="pizza-box-radio" for="rbvegetariana">
+                  <div class="row pizza__border--desactive border-preview p-1 " id="border-1-vegetariana">
+                    <div class="col-6 m-auto pl-2 pt-2 pb-2 pr-0">
+                      <img class="img-fluid" src="assets/images/bebidas/CC-original.png">
+                    </div>
+                    <div class="col-6 m-auto">
+                      <p class="mb-0 pizza__name text-center">Coca Cola Original</p>
+                      <p class="pizza__name--font text-center mb-0">Coca cola Original de 1,5L</p>
+      
+                    </div>
+                  </div>
+                </label>
+      
+                <input type="radio" name="tipo" value="continentalle" id="rbcontinentale" class="text-right" />
+                <label class="pizza-box-radio" for="rbcontinentale">
+                  <div class="row pizza__border--desactive border-preview p-1" id="border-1-continentalle">
+                    <div class="col-6 m-auto pl-2 pt-2 pb-2 pr-0">
+                      <img class="img-fluid" src="assets/images/bebidas/CC-sin-azucar.png">
+                    </div>
+                    <div class="col-6 m-auto">
+                      <p class="mb-0 pizza__name text-center pizza__name--position">Coca Cola Sin Azúcar</p>
+                      <p class="pizza__name--font text-center mb-0">Coca cola sin Azúcar de 1,5L</p>
+      
+                    </div>
+                  </div>
+                </label>
+      
+              </form>
+            </div>
 
   </section>
-  <footer class="confirm">
+  <footer class="confirm btn-absolute">
     <div>
       <button class="p-2 text-center confirm__btn-confirm-pizza  confirm__btn-confirm-pizza--promo2">Confirmar</button>
     </div>
